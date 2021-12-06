@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&family=Prata&display=swap");
+:root {
+  --font-heading: "Prata";
+  --font-body: "Inter";
+  --yellow: #f2d750;
+  --color-text: #adadad;
+  --bg-color: #0a0a0b;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--bg-color);
+}
+header {
+  width: 80%;
+  margin: 2rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo h1 {
+  color: #ffff;
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+.nav-bar li {
+  margin-right: 2rem;
+}
+.nav-item {
+  color: var(--color-text);
+  text-decoration: none;
+  font-family: var(--font-body);
+}
+.cta {
+  color: var(--bg-color);
+  background-color: var(--yellow);
+  padding: 1rem 3rem;
+  text-decoration: none;
+  font-family: var(--font-heading);
+  text-align: center;
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+  max-width: 100%;
+}
+.cta:hover {
+  font-weight: 700;
+  border: var(--yellow) solid 0.1rem;
+  background: transparent;
+  color: var(--yellow);
+}
+.hero {
+  width: 80%;
+  margin: 5rem auto;
+}
+.hero h1 {
+  color: #fff;
+  font-family: var(--font-heading);
+  font-size: 3rem;
+  max-width: 20ch;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.hero p {
+  color: var(--color-text);
+  font-family: var(--font-body);
+  max-width: 60ch;
+  margin-bottom: 4rem;
+}
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.projects {
+  width: 60%;
+  margin: 4rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.project {
+  margin-right: 2rem;
+}
+.project h2 {
+  margin-top: 1rem;
+  color: #ffff;
+  font-family: var(--font-heading);
+  font-weight: 400;
+  font-size: 2rem;
+}
+.co-hero {
+  background-color: #2e3038;
+}
+.contenido {
+  width: 80%;
+  margin: 0 auto;
+  padding: 4rem 0;
+  display: flex;
+  justify-content: center;
+}
+.first-text {
+  margin-right: 5rem;
+}
+.first-text h2 {
+  color: #ffff;
+  font-family: var(--font-heading);
+  font-weight: 400;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+.first-text p {
+  color: var(--color-text);
+  font-family: var(--font-body);
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+.last_sec {
+  padding: 4rem 0;
+  width: 80%;
+  margin: 0 auto;
+}
+.last_sec h2 {
+  color: #fff;
+  font-family: var(--font-heading);
+  font-weight: 550;
+  margin-bottom: 1rem;
+}
+.last_sec p {
+  color: var(--color-text);
+  font-family: var(--font-body);
+  max-width: 46ch;
+  margin-bottom: 2rem;
+}
+footer {
+  background-color: #2e3038;
+  padding: 2rem;
+}
+.name {
+  color: #fff;
+  font-family: var(--font-heading);
+  font-weight: 550;
+  margin: 0 auto;
+  width: 80%;
+}
